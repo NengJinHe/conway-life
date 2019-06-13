@@ -98,6 +98,6 @@ if __name__ == '__main__':
         b = 1
     else:
         print("Invalid Choice!")
-    con = ConwayGame(N=100, T=50)
+    con = ConwayGame(N=int(input("请输入画布大小：")), T=int(input("请输入迭代次数：")))
     con.state_change()
 
